@@ -1,6 +1,6 @@
 # Book Swap API
 
-A modular RESTful API for a Book Swap platform built with **Express.js**, **MongoDB/Mongoose**, and **JWT** (access-token only) authentication.
+A modular RESTful API for a Book Swap platform built with Express.js, MongoDB, and JWT authentication, supporting user auth, book listings, and swap request management with centralized error handling and request validation.
 
 ---
 
