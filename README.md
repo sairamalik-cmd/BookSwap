@@ -139,7 +139,7 @@ All responses follow a consistent format:
 
 ---
 
-## Team Division / Contribution Guide
+## Work Contribution
 
 This project is divided between 2 partners for collaborative development:
 
@@ -179,7 +179,7 @@ src/config/
 └── db.js
 ```
 
-### **Student 2: Books & Swaps (Core Business Logic)**
+### **Collaborator 2: Books & Swaps (Core Business Logic)**
 
 **Responsible for:**
 - Book management (CRUD operations)
@@ -240,5 +240,5 @@ src/
 ```
 
 ## Authors
-Saira Ahmed
-Maham Maryam
+- Saira Ahmed
+- Maham Maryam
