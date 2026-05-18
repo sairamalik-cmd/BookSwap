@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+	--ink: #1a1a18;
+	--beige: #f5efe6;
+	--sand: #e8dcc8;
+	--coffee: #4a3f35;
+	--accent: #c96b3c;
+	--card: #fffaf3;
+}
+
+body {
+	font-family: "Inter", Arial, Helvetica, sans-serif;
+	color: var(--ink);
+	background:
+		radial-gradient(1200px 500px at 5% -10%, #fff7ec, transparent),
+		radial-gradient(900px 500px at 110% -20%, #f1e4d3, transparent),
+		linear-gradient(180deg, #f6efe6, #efe6d6);
+}
+
+h1, h2, h3, .navbar-brand {
+	font-family: "Playfair Display", serif;
+	letter-spacing: 0.01em;
+}
+
+.navbar {
+	background: rgba(255, 250, 243, 0.9) !important;
+	backdrop-filter: blur(8px);
+	border-bottom: 1px solid #eadfcf;
+}
+
+
+.hero {
+	padding: 36px;
+	border-radius: 20px;
+	color: var(--ink);
+	background: linear-gradient(135deg, #fff6ea, #efe0cc);
+	box-shadow: 0 16px 40px rgba(74, 63, 53, 0.15);
+}
+
+.hero h1 { font-size: 2.8rem; margin: 0 0 8px 0; }
+.hero p { max-width: 620px; color: #4a3f35; }
+.eyebrow { text-transform: uppercase; font-size: 0.78rem; letter-spacing: 0.2em; color: #7a6a5a; }
+
+.card {
+	border: 1px solid #eadfcf;
+	background: var(--card);
+}
+
+.card-img-top { height: 190px; object-fit: cover; }
+
+.card-hover {
+	transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.card-hover:hover {
+	transform: translateY(-6px);
+	box-shadow: 0 20px 36px rgba(74, 63, 53, 0.18);
+}
+
+.swap-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0;
+	border-bottom: 1px solid #f0e4d6;
+}
+
+.swap-row:last-child { border-bottom: none; }
+
+.swap-cta {
+	border-top: 1px dashed #e5d8c9;
+	padding-top: 12px;
+}
+
+.filter-bar {
+	background: white;
+	border-radius: 16px;
+	padding: 16px;
+	box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.stat-card {
+	background: var(--card);
+	border-radius: 16px;
+	padding: 18px;
+	box-shadow: 0 12px 24px rgba(74, 63, 53, 0.12);
+}
+
+.stat-label { font-size: 0.85rem; color: #7a6a5a; }
+.stat-value { font-size: 2rem; font-weight: 700; color: var(--coffee); }
+
+.btn-primary {
+	background-color: var(--accent);
+	border-color: var(--accent);
+}
+
+.btn-outline-light {
+	color: var(--coffee);
+	border-color: #d6c6b2;
+}
+
+.btn-outline-light:hover {
+	background: #f2e6d6;
+}
+
+.filter-bar {
+	background: var(--card);
+	border-radius: 16px;
+	padding: 16px;
+	box-shadow: 0 10px 24px rgba(74, 63, 53, 0.12);
+}
